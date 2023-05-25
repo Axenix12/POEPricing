@@ -1,6 +1,6 @@
-import  Header  from '@/components/Header'
+import  Header  from '@/app/components/Header'
 import Image from 'next/image'
-import styles from '../styles/page.module.css'
+import styles from './styles/page.module.css'
 
 export default function Home() {
   return (
