@@ -12,48 +12,38 @@ export default function Home() {
 				<title>POE Pricing</title>
 				<meta name="description" content="POE Pricing charts" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
-				<link rel="icon" href="/favicon.ico" />
+				<link rel="icon" href="/Chaos1.png" />
 			</Head>
 			<main className={`${styles.main} ${inter.className}`}>
-				<div className={styles.description}>
-					<p>POE Pricing homepage</p>
-					<div>
-						<a
-							href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-							target="_blank"
-							rel="noopener noreferrer">
-							By{" "}
-							<Image
-								src="/vercel.svg"
-								alt="Vercel Logo"
-								className={styles.vercelLogo}
-								width={100}
-								height={24}
-								priority
-							/>
-						</a>
+				<div className={styles.title}>
+					<div className={styles.description}>
+						<p>POE Pricing</p>
 					</div>
 				</div>
 
 				<div className={styles.center}>
 					<Image
 						className={styles.logo}
-						src="/next.svg"
-						alt="Next.js Logo"
-						width={180}
-						height={37}
+						src="/POE_Logo.png"
+						alt="POE Logo"
+						width={540}
+						height={240}
 						priority
 					/>
 				</div>
 
 				<div className={styles.grid}>
-					<a
-						href="/currency"
-						className={styles.card}
-						target="_blank"
-						rel="noopener noreferrer">
+					<a href="/currency" className={styles.card} rel="noopener noreferrer">
 						<h2>
-							Currency <span>-&gt;</span>
+							Currency{" "}
+							<Image
+								src="/Chaos1.png"
+								alt="Chaos Orb"
+								width={25}
+								height={25}
+								className={styles.chaos}
+							/>
+							<span>-&gt;</span>
 						</h2>
 						<p>Currency Tab</p>
 					</a>
@@ -61,7 +51,6 @@ export default function Home() {
 					<a
 						href="/fragments"
 						className={styles.card}
-						target="_blank"
 						rel="noopener noreferrer">
 						<h2>
 							Fragments <span>-&gt;</span>
@@ -69,55 +58,35 @@ export default function Home() {
 						<p>Fragments Tab</p>
 					</a>
 
-					<a
-						href="/blight"
-						className={styles.card}
-						target="_blank"
-						rel="noopener noreferrer">
+					<a href="/blight" className={styles.card} rel="noopener noreferrer">
 						<h2>
 							Blight <span>-&gt;</span>
 						</h2>
 						<p>Blight Tab</p>
 					</a>
 
-					<a
-						href="/essences"
-						className={styles.card}
-						target="_blank"
-						rel="noopener noreferrer">
+					<a href="/essences" className={styles.card} rel="noopener noreferrer">
 						<h2>
 							Essences <span>-&gt;</span>
 						</h2>
 						<p>Essences Tab</p>
 					</a>
 
-					<a
-						href="/beasts"
-						className={styles.card}
-						target="_blank"
-						rel="noopener noreferrer">
+					<a href="/beasts" className={styles.card} rel="noopener noreferrer">
 						<h2>
 							Beasts <span>-&gt;</span>
 						</h2>
 						<p>Valuable Beasts</p>
 					</a>
 
-					<a
-						href="/uniques"
-						className={styles.card}
-						target="_blank"
-						rel="noopener noreferrer">
+					<a href="/uniques" className={styles.card} rel="noopener noreferrer">
 						<h2>
 							Uniques <span>-&gt;</span>
 						</h2>
 						<p>Valuable Uniques</p>
 					</a>
 
-					<a
-						href="/uniques"
-						className={styles.card}
-						target="_blank"
-						rel="noopener noreferrer">
+					<a href="/alva" className={styles.card} rel="noopener noreferrer">
 						<h2>
 							Alva <span>-&gt;</span>
 						</h2>
@@ -125,9 +94,8 @@ export default function Home() {
 					</a>
 
 					<a
-						href="/uniques"
+						href="/expedition"
 						className={styles.card}
-						target="_blank"
 						rel="noopener noreferrer">
 						<h2>
 							Expedition <span>-&gt;</span>
